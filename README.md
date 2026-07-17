@@ -1,5 +1,3 @@
-# wiim-volume-hubitat-driver
-
 # WiiM HTTPS Volume Controller for Hubitat
 
 A lightweight Hubitat custom driver for controlling volume and mute state on a WiiM player through WiiM’s local HTTPS API.
@@ -249,21 +247,6 @@ It currently does not provide:
 * Full transport control
 
 Additional functionality may be added later, but the initial goal is reliable local volume control from Hubitat automations.
-
-## Compatibility Reports
-
-Reports from users testing other WiiM products or Hubitat models are welcome.
-
-When reporting compatibility or a problem, include:
-
-* Hubitat hardware model
-* Hubitat firmware version
-* WiiM hardware model
-* WiiM firmware version
-* Relevant Hubitat log output
-* Whether the manual `curl -k` request succeeds
-
-Do not include public IP addresses, account credentials, or other sensitive information.
 
 ## Disclaimer
 
